@@ -1,0 +1,149 @@
+/*
+headers:
+font-family: 'IBM Plex Mono', monospace;
+main content:
+font-family: 'IBM Plex Sans', sans-serif;
+links:
+font-family: 'IBM Plex Serif', serif;
+*/
+
+body{
+    background-color: #728189;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #728189;
+}
+a:hover{
+    color: #e4d00a;
+}
+
+header{
+    background-color: #213a45;
+    text-align: center;
+    padding: 10px;
+}
+header h1{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #e4d00a;
+    margin: 0;
+}
+header h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #728189;
+    margin: 5;
+}
+
+/*container for first form*/
+#form1{
+    background-color: #0f4661;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 50px solid #728189;
+}
+
+/*opaque bg for form container*/
+.first{
+    background-color: rgba(26, 33, 73, 0.8);
+    border-top: 20px solid #0f4661;
+    border-bottom: 20px solid #0f4661;
+    height: 750px;
+}
+/*form headers*/
+.first h1{
+    margin: 50px 10px 10px 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    text-align: center;
+}
+.first h2{
+    margin: 0px 10px 10px 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    text-align: center;
+}
+/*the input fields*/
+#inputs1{
+    margin: 10px;
+    border: 1px solid #0f4661;
+    background-color: #1a2149;
+    height: 30px;
+    width:750px;
+    padding: 10px;
+}
+/*the message field*/
+#message{
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: 1px solid #0f4661;
+    background-color: #1a2149;
+    width: 750px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+/*the submit button*/
+#firstFormSubmitBtn{
+    background-color: #1a2149;
+    border: 1px solid #e4d00a;
+    border-radius: ;
+    height: 60px;
+    width: 300px;
+    margin: 0 250px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    color: #e4d00a;
+}
+
+/*thi is how to style the placeholder text color*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+#form2{
+    background-color: #1a2149;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 50px solid #728189;
+}
+#form3{
+    background-color: #e0ce00;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 50px solid #728189;
+}
+#form4{
+    background-color: #1a2149;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 50px solid #728189;
+}
+#form5{
+    background-color: #e0ce00;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 50px solid #728189;
+}
+
+footer{
+    background-color: #213a45;
+    color: #728189;
+    text-align: center;
+    padding: 10px;
+}
