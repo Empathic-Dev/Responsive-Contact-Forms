@@ -119,6 +119,48 @@ header h2{
     margin: auto;
     border: 50px solid #728189;
 }
+#second{
+    background-color: #0f4661;
+    border-radius: 5px;
+    height: 400px;
+    width: 730px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+}
+#form2 h1{
+    color: #e0ce00;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    margin: 100px;
+}
+#inputs2, #message2{
+    display: block;
+    background-color: #e0ce00;
+    border: 1px solid #e0ce00;
+    border-radius: 5px; 
+    margin: 10px;
+}
+#inputs2{
+    float: left;
+    height: 50px;
+    width: 350px;
+}
+#message2{
+    background-color: #e0ce00;
+    border-radius: 5px;
+    width: 300px;
+    height: 220px;
+}
+#formSubmitBtn2{
+    background-color: #0f4661;
+    color: #e0ce00;
+    border: 1px solid #e0ce00;
+    border-radius: 5px; 
+    height: 40px;
+    width: 250px;
+}
+
 #form3{
     background-color: #e0ce00;
     height: 800px;
