@@ -27,9 +27,9 @@
             <form id="firstForm" action="#" method="POST">
                 <input id="inputs1" type="text" name="fullname" placeholder="Your Name" required>
                 
-                <input id="inputs1" type="text" name="email" placeholder="Your Email" required>
+                <input id="inputs1" type="email" name="email" placeholder="Your Email" required>
 
-                <input id="inputs1" type="text" name="phone" placeholder="Your Phone Number">
+                <input id="inputs1" type="tel" name="phone" placeholder="Your Phone Number">
 
                 <textarea name="message" id="message" placeholder="Your message here"></textarea>
 
@@ -37,19 +37,24 @@
             </form>
         </div>
     </section>
-    
-    <section id="form2">
-        <h1>Let's Work Together</h1>
 
+    <section id="form2">
+       <h1>Let's Work Together</h1>
+       <form action="#" method="POST">
         <div id="second">
-            <form action="#" method="POST">
-                <input id="inputs2" type="text">
-                <input id="inputs2" type="text">
-                <input id="inputs2" type="text">
-                <textarea id="message2" name="" id=""></textarea>
-                <input id="formSubmitBtn2" type="submit" value="Send">
-            </form>
+           <div class="half left">
+                <input id="inputs2" type="text" name="fullname" placeholder="Name">
+                <input id="inputs2" type="email" name="email" placeholder="Email">
+                <input id="inputs2" type="tel" name="phone" placeholder="Phone">
+           </div>
+           <div class="half right">
+               <textarea id="message2" placeholder="Message"></textarea>
+           </div>
         </div>
+        <div id="btn2">
+            <input id="submitBtn2" type="submit" value="Send">
+        </div>
+       </form>
     </section>
 
     <section id="form3">
