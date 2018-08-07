@@ -18,7 +18,7 @@
         <h1>Web Dev Deja</h1>
         <h2>Contact Forms</h2>
     </header>
-<!--
+
     <section id="form1">
         <div class="first">
             <h1>Contact Us</h1>
@@ -28,7 +28,7 @@
                 <input id="inputs1" type="email" name="email" placeholder="Your Email" required>
                 <input id="inputs1" type="tel" name="phone" placeholder="Your Phone Number">
                 <textarea name="message" id="message" placeholder="Your message here"></textarea>
-                <input id="firstFormSubmitBtn" type="submit" value="Send">
+                <input id="firstFormSubmitBtn" type="submit" value="Send" required>
             </form>
         </div>
     </section>
@@ -38,12 +38,12 @@
        <form action="#" method="POST">
         <div id="second">
            <div class="half left">
-                <input id="inputs2" type="text" name="fullname" placeholder="Name">
-                <input id="inputs2" type="email" name="email" placeholder="Email">
-                <input id="inputs2" type="tel" name="phone" placeholder="Phone">
+                <input id="inputs2" type="text" name="fullname" placeholder="Name" required>
+                <input id="inputs2" type="email" name="email" placeholder="Email" required>
+                <input id="inputs2" type="tel" name="phone" placeholder="Phone (optional)">
            </div>
            <div class="half right">
-               <textarea id="message2" placeholder="Message"></textarea>
+               <textarea id="message2" placeholder="Message" required></textarea>
            </div>
         </div>
         <div id="btn2">
@@ -51,18 +51,21 @@
         </div>
        </form>
     </section>
--->
+
     <section id="form3">
         <div id="third">
             <h1>Wanna Chat?</h1>
             <h2>just write your message below!</h2>
             <form action="#" method="POST">
                 <div id="f3inputs">
-                    <input id="inputs3" type="text" name="fullname" placeholder="Username" required>
-                    <input id="inputs3" type="email" required>
+                    <input id="inputs3" type="text" name="fullname" placeholder="username" required>
+                    <input id="inputs3" type="email" placeholder="email address" required>
                 </div>
                 <div id="message3box">
-                    <textarea id="message3" name="message"></textarea>
+                    <textarea id="message3" name="message" placeholder="write your message here!" required></textarea>
+                </div>
+                <div id="thirdBtn">
+                    <input type="submit" value="Send" id="submitBtn3">
                 </div>
             </form>
         </div>
