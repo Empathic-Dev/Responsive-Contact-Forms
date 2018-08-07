@@ -387,6 +387,22 @@ header h2{
     margin: auto;
     border: 50px solid #728189;
 }
+#form5 h1{
+    font-family: 'IBM Plex Mono',monospace;
+    font-size: 2em;
+    color: #1a2149;
+    text-align: center;
+    margin: 50px;
+}
+#last{
+    background-color: #0f4661;
+    border: 1px solid #0f4661;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+}
 
 footer{
     background-color: #213a45;
