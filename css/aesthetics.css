@@ -308,7 +308,78 @@ header h2{
     margin: auto;
     border: 50px solid #728189;
 }
-
+#form4 h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    text-align: center;
+    color: #e0ce00;
+    margin: 45px;
+}
+#forthFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f4661;
+    width: 800px;
+    height: 550px;
+}
+#inputs4, #message4{
+    margin: 10px;
+    width: 500px;
+    background-color: #e0ce00;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    resize: none;
+}
+#inputs4::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1a2149;
+    opacity: 1;
+}
+#inputs4:-ms-input-placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1a2149;
+}
+#inputs4::-ms-input-placeholder { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1a2149;
+}
+#message4{
+    height: 300px;
+}
+#message4::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1a2149;
+    opacity: 1;
+}
+#message4:-ms-input-placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1a2149;
+}
+#message4::-ms-input-placeholder { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1a2149;
+}
+#submitBtn4Box{
+    display: flex;
+    margin: 50px;
+}
+#submitBtn4{
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0.5em;
+    background-color: #0f4661;
+    border: 0;
+    outline: 0;
+    color: #e0ce00;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+}
 #form5{
     background-color: #e0ce00;
     height: 800px;
