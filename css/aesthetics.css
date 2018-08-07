@@ -88,7 +88,6 @@ header h2{
 #firstFormSubmitBtn{
     background-color: #1a2149;
     border: 1px solid #e4d00a;
-    border-radius: ;
     height: 60px;
     width: 300px;
     margin: 0 250px;
@@ -137,7 +136,7 @@ header h2{
 }
 #inputs2, #message2{
     border: 0;
-    outline 0;
+    outline: 0;
     border-radius: 8px;
     display: block;
     background-color: #e0ce00;
