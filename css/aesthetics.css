@@ -206,6 +206,7 @@ header h2{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1.5em;
 }
+
 #form3{
     background-color: #e0ce00;
     height: 800px;
@@ -213,6 +214,41 @@ header h2{
     margin: auto;
     border: 50px solid #728189;
 }
+#third{
+    background-color: #0f4661;
+    height: 700px;
+    width: 700px;
+    margin: 50px; 
+}
+#form3 h1, h2{
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#form3 h1{
+    color: #e0ce00;
+    font-size: 2.5em;
+}
+#form3 h2{
+    color: #1a2149;
+}
+#f3inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+#inputs3{
+    width: 250px;
+    padding: 1em;
+}
+#message3box{
+    margin: 10px;
+    display: flex;
+}
+#message3{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
 #form4{
     background-color: #1a2149;
     height: 800px;
@@ -220,6 +256,7 @@ header h2{
     margin: auto;
     border: 50px solid #728189;
 }
+
 #form5{
     background-color: #e0ce00;
     height: 800px;
