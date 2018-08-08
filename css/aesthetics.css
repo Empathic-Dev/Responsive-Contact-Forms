@@ -392,18 +392,108 @@ header h2{
     font-size: 2em;
     color: #1a2149;
     text-align: center;
-    margin: 50px;
 }
 #last{
     background-color: #0f4661;
     border: 1px solid #0f4661;
     border-radius: 20px;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     margin: auto;
     padding: 25px;
 }
-
+#lastTop{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+#lastinputs, #lastInputBottom, #message5, #lastbtn{
+    background-color: #1a2149;
+    border: 0;
+    outline: 0;
+}
+#lastinputs{
+    width: 40%;
+    padding: 0.75em;
+}
+#lastBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lastInputBottom, #message5{
+    width: 83%;
+    margin-bottom: 25px;
+    padding: .75em;
+}
+#message5{
+    height: 300px;
+    resize: none;
+}
+#lastbtnbox{
+    display: flex;
+}
+#lastbtn{
+    width: 250px;
+    margin: auto;
+    padding: .5em;
+    color: #e0ce00;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5em;
+}
+#message3{
+    width: 580px;
+    height: 300px;
+    margin: auto;
+    padding: 1em;
+    background-color: #1a2149;
+    border: 0;
+    outline: 0;
+    font-size: 1.2em;
+    color: #e0ce00;
+}
+#lastinputs::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+    opacity: 1;
+}
+#lastinputs:-ms-input-placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+}
+#lastinputs::-ms-input-placeholder { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+}
+#lastInputBottom::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+    opacity: 1;
+}
+#lastInputBottom:-ms-input-placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+}
+#lastInputBottom::-ms-input-placeholder { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+}
+#message5::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+    opacity: 1;
+}
+#message5:-ms-input-placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+}
+#message5::-ms-input-placeholder { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e0ce00;
+}
 footer{
     background-color: #213a45;
     color: #728189;
